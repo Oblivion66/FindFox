@@ -1,2 +1,0 @@
-# FindFox
-Our project
