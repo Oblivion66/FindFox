@@ -525,12 +525,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 85006283}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 760bf1ec773274348988ed5c59a47edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scan: {fileID: 57661007}
   QRvalue: 
   state: 0
+=======
+  m_Script: {fileID: 11500000, guid: 5f18f9f12f0222840ae8ec45b2ef7f99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rawimage: {fileID: 0}
+>>>>>>> salat
 --- !u!1 &105229396
 GameObject:
   m_ObjectHideFlags: 0
