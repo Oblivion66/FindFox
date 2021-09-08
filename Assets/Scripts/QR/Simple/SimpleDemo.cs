@@ -12,6 +12,9 @@ public class SimpleDemo : MonoBehaviour {
 	private IScanner BarcodeScanner;
 	public RawImage Image;
 	public static string value = null;
+	//public GameObjekt agent;
+	public PlayerControl abc;
+
 
 	// Disable Screen Rotation on that screen
 	void Awake()
@@ -24,6 +27,8 @@ public class SimpleDemo : MonoBehaviour {
 		// Create a basic scanner
 		BarcodeScanner = new Scanner();
 		BarcodeScanner.Camera.Play();
+
+		//abc = agent.GetComponent<PlauerControl>();
 
 		// Display the camera texture through a RawImage
 		BarcodeScanner.OnReady += (sender, arg) => {
@@ -68,6 +73,9 @@ public class SimpleDemo : MonoBehaviour {
 		BarcodeScanner.Scan((barCodeType, barCodeValue) => {
 			BarcodeScanner.Stop();
 			value = barCodeValue;
+
+			abc.findQR();
+
 			this.ClickStop();
 		});
 	}
