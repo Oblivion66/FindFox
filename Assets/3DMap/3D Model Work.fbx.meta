@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: dd7043d30d523ad4093390b592d62fcd
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -2001911970105296835
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.001|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1869092594179506435
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.001|CubeAction.003"
+  - first:
+      74: 4047299187444574955
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.002|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1733861421047734608
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.002|CubeAction.003"
+  - first:
+      74: -2053621780826740200
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.003|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -2325254843921496260
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.003|CubeAction.003"
+  - first:
+      74: -4165751434908779070
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.004|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1183901760090944322
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.004|CubeAction.003"
+  - first:
+      74: 3788554352216095770
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.005|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 7615735970638163461
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.005|CubeAction.003"
+  - first:
+      74: 5687833006763141665
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.006|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 6477152600105128972
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.006|CubeAction.003"
+  - first:
+      74: -8158429250933548738
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.007|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 430607395535333749
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.007|CubeAction.003"
+  - first:
+      74: -2010223491190719345
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.008|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 6255453764470896384
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.008|CubeAction.003"
+  - first:
+      74: -5336867647639330245
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.009|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4744882299606254217
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.009|CubeAction.003"
+  - first:
+      74: 2789330811513260430
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.010|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 4424553915687978264
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.010|CubeAction.003"
+  - first:
+      74: -1943927046002259537
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.011|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 3681841902314901889
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.011|CubeAction.003"
+  - first:
+      74: 3297028658459580846
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.012|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -8960944443109823133
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.012|CubeAction.003"
+  - first:
+      74: -9160706214400837115
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.013|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 5985262326833732738
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.013|CubeAction.003"
+  - first:
+      74: 579248505926829171
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.014|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4213776563730306785
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.014|CubeAction.003"
+  - first:
+      74: -853122759540658578
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.015|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 5046534823874842266
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.015|CubeAction.003"
+  - first:
+      74: -6329418903853119775
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.016|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -665331766525846035
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.016|CubeAction.003"
+  - first:
+      74: 966947554861534490
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.017|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 5849390372669943290
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.017|CubeAction.003"
+  - first:
+      74: -9169782200823132811
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.018|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 1820881104927617145
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.018|CubeAction.003"
+  - first:
+      74: -3647057585448554095
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.019|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 8898639327840493012
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.019|CubeAction.003"
+  - first:
+      74: -1032374522741276325
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.020|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -6317041489886467437
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.020|CubeAction.003"
+  - first:
+      74: -3911455596374868593
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.021|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -8045246816282423092
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.021|CubeAction.003"
+  - first:
+      74: 8471061902526568046
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.022|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4795384383727066358
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.022|CubeAction.003"
+  - first:
+      74: -924069707039453061
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.023|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 3365732888417499597
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.023|CubeAction.003"
+  - first:
+      74: -3302435608833163395
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.024|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 2774596962887736272
+    second: "2\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.024|CubeAction.003"
+  - first:
+      74: 1520625156528354588
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.024|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4520590408631591238
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.024|CubeAction.003"
+  - first:
+      74: -1601851853911648583
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.001|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 2452040949252212551
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.001|CubeAction.003"
+  - first:
+      74: -8312306759023599435
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.002|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 782032631934761754
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.002|CubeAction.003"
+  - first:
+      74: 8842755770724125512
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.003|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 3833390574259526621
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.003|CubeAction.003"
+  - first:
+      74: -1785288707009967057
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.004|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 2909390392441116611
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.004|CubeAction.003"
+  - first:
+      74: 5763849084941416977
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.005|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 5989811345077850362
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.005|CubeAction.003"
+  - first:
+      74: 2705716554673468445
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.006|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -5356855964421921881
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.006|CubeAction.003"
+  - first:
+      74: -2132320430968289772
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.007|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 2949027207032075626
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.007|CubeAction.003"
+  - first:
+      74: 4500126248781495373
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.008|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 5473850391211075485
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.008|CubeAction.003"
+  - first:
+      74: 7737635797077776706
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.009|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 4428791034219021093
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.009|CubeAction.003"
+  - first:
+      74: -8729797306711444004
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.010|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 3088295000881645700
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.010|CubeAction.003"
+  - first:
+      74: 305940221070463519
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.011|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 479585567450280964
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.011|CubeAction.003"
+  - first:
+      74: 5288106886780974037
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.012|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1680780829924674973
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.012|CubeAction.003"
+  - first:
+      74: -4016774407068303806
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.013|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4906758602810056479
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.013|CubeAction.003"
+  - first:
+      74: 5866028896316105297
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.014|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -3566976304801318980
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.014|CubeAction.003"
+  - first:
+      74: 1952221285863924681
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.015|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -180810375501788497
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.015|CubeAction.003"
+  - first:
+      74: -4516452168198738873
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.016|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -2337272468681685290
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.016|CubeAction.003"
+  - first:
+      74: -46889565444173422
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.017|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -7490803832918769101
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.017|CubeAction.003"
+  - first:
+      74: 4506473531085734362
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.018|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 7247667136224120931
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.018|CubeAction.003"
+  - first:
+      74: 3837799329055305700
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.019|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -184320228013948377
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.019|CubeAction.003"
+  - first:
+      74: 6729500803145696278
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.020|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -2781011309020387544
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.020|CubeAction.003"
+  - first:
+      74: -7948612561243018398
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.021|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -3615418582907280257
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.021|CubeAction.003"
+  - first:
+      74: -917508855980871923
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.022|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -8080810856581584820
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.022|CubeAction.003"
+  - first:
+      74: 2791171221512286659
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.023|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4814580893275197453
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.023|CubeAction.003"
+  - first:
+      74: 8027442293724229211
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.025|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 8607815057148615588
+    second: "3\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.025|CubeAction.003"
+  - first:
+      74: 4862536343269057754
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.026|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 7611686570070356060
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.026|CubeAction.003"
+  - first:
+      74: -7873429486719879969
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.001|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4020551881461311828
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.001|CubeAction.003"
+  - first:
+      74: -3550275784986900309
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.002|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1876993788021685395
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.002|CubeAction.003"
+  - first:
+      74: -7409110077852764187
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.003|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 9064037061642798593
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.003|CubeAction.003"
+  - first:
+      74: -7502327923951295270
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.004|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1296217249223552761
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.004|CubeAction.003"
+  - first:
+      74: 578849592689560481
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.005|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -5559444759097133623
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.005|CubeAction.003"
+  - first:
+      74: 4253169639017692278
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.006|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 8930988790005227235
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.006|CubeAction.003"
+  - first:
+      74: -2042390137845076891
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.007|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 7097468208945490914
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.007|CubeAction.003"
+  - first:
+      74: 8346094464213036031
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.008|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -3644177576866342757
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.008|CubeAction.003"
+  - first:
+      74: 4260558714342977741
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.009|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 6753970464374007785
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.009|CubeAction.003"
+  - first:
+      74: -6813583302536560039
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.010|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -6913807608961384108
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.010|CubeAction.003"
+  - first:
+      74: -8937900812449867843
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.011|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 6530730181025538773
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.011|CubeAction.003"
+  - first:
+      74: 6422362281647049959
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.012|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -5126725400304007623
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.012|CubeAction.003"
+  - first:
+      74: 8827016109637010384
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.013|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -497153205816499413
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.013|CubeAction.003"
+  - first:
+      74: 4094124018076170101
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.014|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -2059906112980512742
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.014|CubeAction.003"
+  - first:
+      74: -8988357877293535814
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.015|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -2874137570567941980
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.015|CubeAction.003"
+  - first:
+      74: -6495090761488105299
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.016|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -3342471128291925220
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.016|CubeAction.003"
+  - first:
+      74: 8583949411885439526
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.017|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1975119206790927275
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.017|CubeAction.003"
+  - first:
+      74: -5833912232371399293
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.018|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -8189274061344086061
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.018|CubeAction.003"
+  - first:
+      74: -5813645174821914710
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.019|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4191327125093699939
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.019|CubeAction.003"
+  - first:
+      74: 7403257977534208399
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.020|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 4703962894106079242
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.020|CubeAction.003"
+  - first:
+      74: -658262670230162554
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.021|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1686259587723067396
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.021|CubeAction.003"
+  - first:
+      74: 4051468977456984668
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.022|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 1506028049688886053
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.022|CubeAction.003"
+  - first:
+      74: 2016380003777426417
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.023|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -6390585809914960002
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.023|CubeAction.003"
+  - first:
+      74: 7404161776867003769
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.024|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 8285331697541666533
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.024|CubeAction.003"
+  - first:
+      74: 8847354107825997299
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.025|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 4513283994678932126
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.025|CubeAction.003"
+  - first:
+      74: 8512448893283947355
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.027|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 3478513759938569896
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.027|CubeAction.003"
+  - first:
+      74: -1177466279955699721
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.028|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -5003998483684619042
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.028|CubeAction.003"
+  - first:
+      74: 3815601307156806219
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.029|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4166552546071132249
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.029|CubeAction.003"
+  - first:
+      74: -5822262817525453474
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.030|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 7693263835370734194
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.030|CubeAction.003"
+  - first:
+      74: 8148149339395375103
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.031|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 5558033564473103429
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.031|CubeAction.003"
+  - first:
+      74: -7424000644167740989
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.032|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1398461553517020375
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.032|CubeAction.003"
+  - first:
+      74: -3659893947170815641
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.033|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 3769225772423653268
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.033|CubeAction.003"
+  - first:
+      74: 2601731437907040870
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.034|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -4987113961485010930
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.034|CubeAction.003"
+  - first:
+      74: 8689634302733415240
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.035|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 7346533340004394579
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.035|CubeAction.003"
+  - first:
+      74: -5005442530254542860
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.036|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 4000232549510700311
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.036|CubeAction.003"
+  - first:
+      74: 7214024886476467143
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.037|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 5302522727070403717
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.037|CubeAction.003"
+  - first:
+      74: -6103257975567505291
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.038|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 842711695286231220
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.038|CubeAction.003"
+  - first:
+      74: 191975998022458929
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.039|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 8235527858956567723
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.039|CubeAction.003"
+  - first:
+      74: 5759422283346935177
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.041|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 3047519191221008943
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.041|CubeAction.003"
+  - first:
+      74: 7401535464020930427
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.042|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 2159077187933260957
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.042|CubeAction.003"
+  - first:
+      74: 1104296447033488042
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.043|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -7255168401258239388
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.043|CubeAction.003"
+  - first:
+      74: 3579409876001583493
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.044|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 8537472805932003898
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.044|CubeAction.003"
+  - first:
+      74: -1451202823259584557
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.045|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 6805247744776892881
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.045|CubeAction.003"
+  - first:
+      74: -727806665125113451
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.046|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -5841072778715860895
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.046|CubeAction.003"
+  - first:
+      74: -7122138716035727192
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.047|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 7863076495122727787
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.047|CubeAction.003"
+  - first:
+      74: 420152810445951014
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.048|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 3651841928371664663
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.048|CubeAction.003"
+  - first:
+      74: -6868138458335211483
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.049|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: 6517408605157825912
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.049|CubeAction.003"
+  - first:
+      74: -7951293707863801107
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.040|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1787634561554016854
+    second: "4\u044D - \u041A\u0440\u0435\u0441\u043B\u043E.040|CubeAction.003"
+  - first:
+      74: 8416564363580858721
+    second: "4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430|4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430Action.001"
+  - first:
+      74: -1963799596079686998
+    second: "4\u044D-\u041E\u0441\u043D\u043E\u0432\u0430|CubeAction.003"
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
