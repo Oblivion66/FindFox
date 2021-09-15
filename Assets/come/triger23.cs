@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
 
-public class triger : MonoBehaviour
+public class triger23 : MonoBehaviour
 {
     public GameObject gm;
     public GameObject agentq;
@@ -14,16 +14,16 @@ public class triger : MonoBehaviour
 
     void OnTriggerExit (Collider other)
     {
-        if (other.tag == "Player") 
+        if (other.tag == "Player")
         {
-            if (agentq.transform.position.y > 1.3)
-            {
-                agent.SetDestination(QRP2.position);
-                gm.SetActive(true);
-            }
-            if (agentq.transform.position.y < 1.2)
+            if (agentq.transform.position.y > 0.4)
             {
                 gm.SetActive(false);
+                agent.SetDestination(QRP2.position);
+            }
+            if (agentq.transform.position.y < 0.2)
+            {
+                gm.SetActive(true);
                 agent.SetDestination(QRP1.position);
             }
         }
