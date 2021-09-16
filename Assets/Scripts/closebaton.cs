@@ -8,9 +8,12 @@ public class closebaton : MonoBehaviour
     public GameObject eye;
     public GameObject home;
     public GameObject close;
+    public TrailRenderer aggent;
+
     // Update is called once per frame
     public void clic()
     {
+        aggent.Clear();
         home.SetActive(true);
         nextb.SetActive(false);
         eye.SetActive(true);

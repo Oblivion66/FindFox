@@ -1072,6 +1072,7 @@ GameObject:
   - component: {fileID: 328757557}
   - component: {fileID: 328757556}
   - component: {fileID: 328757555}
+  - component: {fileID: 328757558}
   m_Layer: 5
   m_Name: HideRoomButton
   m_TagString: Untagged
@@ -1142,7 +1143,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 328757556}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 328757558}
+        m_TargetAssemblyTypeName: eye_batton, Assembly-CSharp
+        m_MethodName: offon
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &328757556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,6 +1194,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328757553}
   m_CullTransparentMesh: 1
+--- !u!114 &328757558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328757553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb6ebbaaa63532479094c6f8b604a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number4: {fileID: 1081215813}
+  number3: {fileID: 463071094}
+  number2: {fileID: 943633115}
+  item4: {fileID: 762918573}
+  item3: {fileID: 747787225}
+  item2: {fileID: 1036726419}
+  tf: 1
 --- !u!1 &386005086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1604,6 +1636,7 @@ MonoBehaviour:
   eye: {fileID: 328757553}
   home: {fileID: 405311749658132852}
   close: {fileID: 539662540}
+  aggent: {fileID: 1061835987}
 --- !u!114 &539662543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2198,7 +2231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &747787226
 Transform:
   m_ObjectHideFlags: 0
@@ -2388,7 +2421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &762918574
 Transform:
   m_ObjectHideFlags: 0
@@ -3303,7 +3336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1036726420
 Transform:
   m_ObjectHideFlags: 0
@@ -4221,8 +4254,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200751012}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.941, y: 0.21, z: 32.569}
-  m_LocalScale: {x: 0.9171953, y: 0.8526737, z: 0.536726}
+  m_LocalPosition: {x: 4.0472, y: 0.3366, z: 32.5479}
+  m_LocalScale: {x: 0.7048359, y: 0.5994296, z: 0.5789663}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -4254,7 +4287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241213173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.992, y: 0.707, z: 32.38}
+  m_LocalPosition: {x: 2.592, y: 0.707, z: 33.217}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 721610427}
@@ -4631,7 +4664,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476862293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.624, y: 0.059, z: 32.38}
+  m_LocalPosition: {x: 3.507, y: 0.059, z: 32.38}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 721610427}
@@ -4723,7 +4756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759211141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8288, y: 0.4156, z: 32.5683}
+  m_LocalPosition: {x: 4.699, y: 0.296, z: 30.127}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5145,7 +5178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843359315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.286, y: 1.587, z: 36.658}
+  m_LocalPosition: {x: -2.384, y: 1.587, z: 36.894}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 721610427}

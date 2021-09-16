@@ -162,7 +162,7 @@ public class PlayerControl : MonoBehaviour
             case "407":
                 agent.SetDestination(t407.position);
                 break;
-            case "toalet":
+            case "туалет":
                 agent.SetDestination(toalet1.position);
                 break;
 
