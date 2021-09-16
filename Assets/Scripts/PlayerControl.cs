@@ -6,6 +6,11 @@ using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
+    public GameObject nextb;
+    public GameObject eye;
+    public GameObject home;
+    public GameObject close;
+
     public static string pointB;
     public static SimpleDemo value;
     public TrailRenderer aggent;
@@ -46,6 +51,11 @@ public class PlayerControl : MonoBehaviour
 
     public void findQR()
     {
+        home.SetActive(false);
+        nextb.SetActive(false);
+        eye.SetActive(false);
+        close.SetActive(true);
+
         aggggent = GetComponent<NavMeshAgent>();
         aggggent.enabled = false;
         switch (SimpleDemo.value)
@@ -86,6 +96,11 @@ public class PlayerControl : MonoBehaviour
 
     public void starfind()
     {
+        home.SetActive(false);
+        eye.SetActive(false);
+        close.SetActive(true);
+
+        nextb.SetActive(true);
         aggent.Clear();
         pointB = t2.text.ToString();
         switch (pointB)
