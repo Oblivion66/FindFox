@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using System;
 
 public class PlayerControl : MonoBehaviour
 {
     public GameObject nextb;
     public GameObject eye;
-    public GameObject home;
     public GameObject close;
+
+    public GameObject floor;
 
     public static string pointB;
     public static SimpleDemo value;
@@ -51,7 +53,14 @@ public class PlayerControl : MonoBehaviour
 
     public void findQR()
     {
-        home.SetActive(false);
+        if (agggent.transform.position.y < 1.3)
+        {
+            floor.SetActive(false);
+        }
+        else
+        {
+            floor.SetActive(true);
+        }
         nextb.SetActive(false);
         eye.SetActive(false);
         close.SetActive(true);
@@ -96,13 +105,21 @@ public class PlayerControl : MonoBehaviour
 
     public void starfind()
     {
-        home.SetActive(false);
         eye.SetActive(false);
         close.SetActive(true);
 
         nextb.SetActive(true);
         aggent.Clear();
         pointB = t2.text.ToString();
+        int pointBB = Convert.ToInt32(pointB);
+
+        if (agggent.transform.position.y < 1.3 && pointBB < 400)
+        {
+            floor.SetActive(false);
+        }
+        else {
+            floor.SetActive(true);
+        }
         switch (pointB)
         {
             case "201":

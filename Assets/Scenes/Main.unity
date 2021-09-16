@@ -1617,7 +1617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -64.9, y: -185.1}
+  m_AnchoredPosition: {x: -64.9, y: -149}
   m_SizeDelta: {x: 35, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &539662542
@@ -1634,9 +1634,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextb: {fileID: 1816358520}
   eye: {fileID: 328757553}
-  home: {fileID: 405311749658132852}
   close: {fileID: 539662540}
   aggent: {fileID: 1061835987}
+  floor: {fileID: 2140880714}
 --- !u!114 &539662543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37550,6 +37550,11 @@ PrefabInstance:
       propertyPath: close
       value: 
       objectReference: {fileID: 539662540}
+    - target: {fileID: 3675466939676196605, guid: 2b1872fa55a980e40855743aff808928,
+        type: 3}
+      propertyPath: floor
+      value: 
+      objectReference: {fileID: 2140880714}
     - target: {fileID: 3675466939676196605, guid: 2b1872fa55a980e40855743aff808928,
         type: 3}
       propertyPath: nextb
