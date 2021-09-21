@@ -1,20 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class closebaton : MonoBehaviour
 {
     public GameObject nextb;
     public GameObject eye;
     public GameObject close;
-    public TrailRenderer aggent;
+    public TrailRenderer agenttrail;
+    public NavMeshAgent agent;
     public GameObject floor;
+    public Transform QRP1;
+    public GameObject aggent;
 
-    // Update is called once per frame
     public void clic()
     {
+        agent.enabled = false;
+        aggent.transform.position = QRP1.position;
+        agent.enabled = true;
+        agenttrail.Clear();
+
         floor.SetActive(true);
-        aggent.Clear();
         nextb.SetActive(false);
         eye.SetActive(true);
         close.SetActive(false);

@@ -10,16 +10,15 @@ public class PlayerControl : MonoBehaviour
     public GameObject nextb;
     public GameObject eye;
     public GameObject close;
-
     public GameObject floor;
+
+    public NavMeshAgent agent;
 
     public static string pointB;
     public static SimpleDemo value;
-    public TrailRenderer aggent;
-    public GameObject agggent;
-    public NavMeshAgent aggggent;
+    public TrailRenderer agenttrail;
+    public GameObject aggent;
     [SerializeField] Text t2;
-    [SerializeField] NavMeshAgent agent;
     [SerializeField] Transform t201;
     [SerializeField] Transform t202;
     [SerializeField] Transform t301;
@@ -53,7 +52,7 @@ public class PlayerControl : MonoBehaviour
 
     public void findQR()
     {
-        if (agggent.transform.position.y < 1.3)
+        if (aggent.transform.position.y < 1.3)
         {
             floor.SetActive(false);
         }
@@ -65,40 +64,39 @@ public class PlayerControl : MonoBehaviour
         eye.SetActive(false);
         close.SetActive(true);
 
-        aggggent = GetComponent<NavMeshAgent>();
-        aggggent.enabled = false;
+        agent.enabled = false;
         switch (SimpleDemo.value)
         {
             case "1floor":
-                agggent.transform.position = QRP1.position;
+                aggent.transform.position = QRP1.position;
                 break;
             case "2floor":
-                agggent.transform.position = QRP2.position;
+                aggent.transform.position = QRP2.position;
                 break;
             case "3floor":
-                agggent.transform.position = QRP3.position;
+                aggent.transform.position = QRP3.position;
                 break;
             case "3-1floor":
-                agggent.transform.position = QRP31.position;
+                aggent.transform.position = QRP31.position;
                 break;
             case "3-2floor":
-                agggent.transform.position = QRP32.position;
+                aggent.transform.position = QRP32.position;
                 break;
             case "3-3floor":
-                agggent.transform.position = QRP33.position;
+                aggent.transform.position = QRP33.position;
                 break;
             case "4-1floor":
-                agggent.transform.position = QRP41.position;
+                aggent.transform.position = QRP41.position;
                 break;
             case "4-2floor":
-                agggent.transform.position = QRP42.position;
+                aggent.transform.position = QRP42.position;
                 break;
             case "4-3floor":
-                agggent.transform.position = QRP43.position;
+                aggent.transform.position = QRP43.position;
                 break;
         }
-        aggggent.enabled = true;
-        aggent.Clear();
+        agent.enabled = true;
+        agenttrail.Clear();
 
     }
 
@@ -109,11 +107,11 @@ public class PlayerControl : MonoBehaviour
         close.SetActive(true);
 
         nextb.SetActive(true);
-        aggent.Clear();
+        agenttrail.Clear();
         pointB = t2.text.ToString();
         int pointBB = Convert.ToInt32(pointB);
 
-        if (agggent.transform.position.y < 1.3 && pointBB < 400)
+        if (aggent.transform.position.y < 1.3 && pointBB < 400)
         {
             floor.SetActive(false);
         }
