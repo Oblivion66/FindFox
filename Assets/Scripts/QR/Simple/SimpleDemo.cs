@@ -39,8 +39,8 @@ public class SimpleDemo : MonoBehaviour {
 
 			// Keep Image Aspect Ratio
 			var rect = Image.GetComponent<RectTransform>();
-			var newHeight = rect.sizeDelta.x * BarcodeScanner.Camera.Height / BarcodeScanner.Camera.Width;
-			rect.sizeDelta = new Vector2(rect.sizeDelta.x, newHeight);
+			float newHeight = rect.sizeDelta.x * BarcodeScanner.Camera.Height / BarcodeScanner.Camera.Width;
+			rect.sizeDelta = new Vector2(rect.sizeDelta.x * 2.1f, newHeight * 2.1f);
 			Image.transform.Rotate(new Vector3(0, 0, -90));
 		};
 		Image.enabled = false;
