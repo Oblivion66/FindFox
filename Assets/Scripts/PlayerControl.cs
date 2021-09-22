@@ -8,7 +8,6 @@ using System;
 public class PlayerControl : MonoBehaviour
 {
     public GameObject nextb;
-    public GameObject eye;
     public GameObject close;
     public GameObject floor;
 
@@ -30,7 +29,6 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] Transform t307;
     [SerializeField] Transform t308;
     [SerializeField] Transform t309;
-    [SerializeField] Transform t310;
     [SerializeField] Transform t401;
     [SerializeField] Transform t402;
     [SerializeField] Transform t403;
@@ -39,6 +37,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] Transform t406;
     [SerializeField] Transform t407;
     [SerializeField] Transform toalet1;
+    [SerializeField] Transform toalet2;
 
     [SerializeField] Transform QRP1;
     [SerializeField] Transform QRP2;
@@ -61,7 +60,6 @@ public class PlayerControl : MonoBehaviour
             floor.SetActive(true);
         }
         nextb.SetActive(false);
-        eye.SetActive(false);
         close.SetActive(true);
 
         agent.enabled = false;
@@ -103,7 +101,6 @@ public class PlayerControl : MonoBehaviour
 
     public void starfind()
     {
-        eye.SetActive(false);
         close.SetActive(true);
 
         nextb.SetActive(true);
@@ -153,9 +150,6 @@ public class PlayerControl : MonoBehaviour
             case "309":
                 agent.SetDestination(t309.position);
                 break;
-            case "310":
-                agent.SetDestination(t310.position);
-                break;
             case "401":
                 agent.SetDestination(t401.position);
                 break;
@@ -177,10 +171,12 @@ public class PlayerControl : MonoBehaviour
             case "407":
                 agent.SetDestination(t407.position);
                 break;
-            case "туалет":
+            case "toalet1":
                 agent.SetDestination(toalet1.position);
                 break;
-
+            case "toalet2":
+                agent.SetDestination(toalet2.position);
+                break;
         }
     }
 }

@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class closebaton : MonoBehaviour
 {
     public GameObject nextb;
-    public GameObject eye;
     public GameObject close;
     public TrailRenderer agenttrail;
     public NavMeshAgent agent;
@@ -23,7 +22,6 @@ public class closebaton : MonoBehaviour
 
         floor.SetActive(true);
         nextb.SetActive(false);
-        eye.SetActive(true);
         close.SetActive(false);
     }
 }
